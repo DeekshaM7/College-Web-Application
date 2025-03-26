@@ -1,17 +1,73 @@
 # College-Web-Application
 
-This student registration application is a task management and productivity tool targeted at individual users. It could serve as a foundation for:
+# TaskMaster: A React-based Task Management App
 
-1. A personal to-do list application.
-2. A lightweight dashboard for personal task tracking and goal-setting.
+TaskMaster is a dynamic and responsive task management application built using React. It provides users with a feature-rich dashboard for managing tasks, toggling between light and dark themes, and navigating between multiple sections like tasks, dashboard, and user profile.
 
-It provides an intuitive, interactive interface, which could easily be extended to include features like advanced analytics (dashboard stats), authentication, or cloud integration for task persistence.
+---
 
-# Features:
+## Features
 
-Fully Responsive UI – Works seamlessly across different screen sizes.
-Student Registration – Secure signup form with form validation.
-Modern Design – Clean and structured UI for a smooth user experience.
-Navigation & Footer – Includes a Navbar with logo and a Footer with contact details & social media links.
-State Management – Uses React Hooks for efficient state handling.
-Form Components – Well-structured and reusable form elements.
+### Theme Switching (Light/Dark Mode)
+- Toggle between light and dark themes for improved user experience and accessibility.
+
+### Tabbed Navigation
+- Navigate seamlessly between three main sections:
+  - **Tasks:** Manage your to-do list.
+  - **Dashboard:** View statistical insights (feature in progress).
+  - **Profile:** Manage and update user details (feature in progress).
+
+### Task Management
+- Add new tasks using a simple form.
+- Toggle task completion status (mark tasks as done/undone).
+- Delete tasks from the list.
+- Tasks are displayed in a visually organized, responsive list.
+
+### Dynamic User Interface
+- React's state management dynamically updates components for a smooth user experience.
+- Conditional rendering displays content based on the active tab.
+
+### User Profile
+- Displays a mock user profile with a name, role, and avatar.
+- Includes the ability to update user details (implementation pending).
+
+### Reusability and Clean Code Structure
+- Modular components (`Header`, `Navigation`, `TaskManager`, `TaskItem`, `Footer`) ensure easy extensibility and maintenance.
+
+---
+
+## Core Components
+
+### Dashboard (Main Component)
+- Manages the application's state (e.g., tasks, theme, active tab, user profile).
+- Coordinates interactions between child components.
+
+### TaskManager
+- Provides a form to add new tasks and displays a list of current tasks.
+- Includes logic for task addition, deletion, and status toggling.
+
+### Header
+- Displays the app's title (`TaskMaster`), a theme toggle button, and user profile details.
+
+### Navigation
+- Allows navigation between the app's three main sections: tasks, dashboard, and profile.
+
+### TaskItem
+- Represents an individual task in the task list with options to mark it completed or delete it.
+
+---
+
+## Styling
+- Utilizes dynamic class names for theme-based styling to ensure a consistent and responsive user experience.
+
+---
+
+## How to Run the Project
+$ git clone https://github.com/yourusername/College-Web-Application
+$ cd college-signup-portal
+
+Install Dependencies
+$ npm install
+Run the Development Server
+$ npm run dev
+Visit http://localhost:3000.
