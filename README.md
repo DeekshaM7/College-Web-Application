@@ -63,11 +63,17 @@ TaskMaster is a dynamic and responsive task management application built using R
 ---
 
 ## How to Run the Project
+
 $ git clone https://github.com/yourusername/College-Web-Application
+
 $ cd college-signup-portal
 
 Install Dependencies
+
 $ npm install
+
 Run the Development Server
+
 $ npm run dev
+
 Visit http://localhost:3000.
