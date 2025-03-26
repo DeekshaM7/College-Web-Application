@@ -77,3 +77,20 @@ Run the Development Server
 $ npm run dev
 
 Visit http://localhost:3000.
+
+
+## Future Improvements
+
+1. Add persistent storage using localStorage or a database.
+
+2. Enhance the Dashboard with task statistics and graphs.
+
+3. Complete the implementation of the Profile section for user updates.
+
+4. Introduce advanced features like task categorization and reminders.
+
+## License
+This project is licensed under the MIT License.
+
+## Contributing
+Contributions are welcome! Feel free to submit a pull request or open an issue to report bugs or suggest features.
